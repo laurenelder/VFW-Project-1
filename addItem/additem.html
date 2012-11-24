@@ -13,9 +13,50 @@
 		<header>
 			<h1>Remember Who?</h1>
 		</header>
-		<article>
-			<p id=""></p>
-		</article>
+
+		<form action="#" method="post">
+			<fieldset>
+				<legend>General Information</legend>
+					<ul>
+						<li><label for="wsite">Dating Website:</label><input type="text" id="wsite" /></li>
+						<li><label for="uname">Username:</label><input type="text" id="uname" /></li>
+						<li><label for="age">Age:(Disabled)</label><input type="text" id="age" disabled /></li>
+						<li><label for="city">City:(Disabled)</label><input type="text" id="city" disabled /></li>
+					</ul>
+			</fieldset>
+			<fieldset>
+				<legend>Gender and Orientation</legend>
+					<ul>
+						<li>Is the user male or female?</li>
+							<ul>
+								<li><input type="radio" value="Male" id="male" name="gender" /><label for="male">Male</label></li>
+								<li><input type="radio" value="Female" id="female" name="gender" /><label for="female">Female</label></li>
+							</ul>
+						<li>What is the users sexual orientation?</li>
+							<ul>
+								<li><input type="radio" value="Straight" id="straight" name="orientation" /><label for="straight">Straight</label></li>
+								<li><input type="radio" value="Bisexual" id="bisexual" name="orientation" /><label for="bisexual">Bisexual</label></li>
+								<li><input type="radio" value="Gay" id="gay" name="orientation" /><label for="gay">Gay</label></li>
+							</ul>
+					</ul>
+			</fieldset>
+			<fieldset>
+				<legend>More Specific Information</legend>
+					<ul>
+						<li>Check all that apply.</li>
+							<ul>
+								<li><input type="checkbox" value="Vehicle" id="vehicle" /><label for="vehicle">Vehicle</label></li>
+								<li><input type="checkbox" value="Shared Interests" id="shared interests" /><label for="shared interests">Shared Interests</label></li>
+								<li><input type="checkbox" value="Financially Stable" id="financially stable" /><label for="financially stable">Financially Stable</label></li>
+								<li><input type="checkbox" value="Drinks" id="drinks" /><label for="drinks">Drinks</label></li>
+								<li><input type="checkbox" value="Smokes" id="smokes" /><label for="smokes">Smokes</label></li>
+								<li><input type="checkbox" value="Has Kids" id="has kids" /><label for="has kids">Has Kids</label></li>
+								<li><input type="checkbox" value="Wants Kids" id="wants kids" /><label for="wants kids">Wants Kids</label></li>
+								<li><input type="checkbox" value="Has Pets" id="has pets" /><label for="has pets">Has Pets</label></li>
+							</ul>
+					</ul>
+			</fieldset>
+
 		<footer>
 			<p id=""></p>
 		</footer>

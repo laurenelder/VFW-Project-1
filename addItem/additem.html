@@ -22,6 +22,7 @@
 						<li><label for="uname">Username:</label><input type="text" id="uname" /></li>
 						<li><label for="age">Age:(Disabled)</label><input type="text" id="age" disabled /></li>
 						<li><label for="city">City:(Disabled)</label><input type="text" id="city" disabled /></li>
+						<li><label for="fcontact">First Contacted:</label><input type="date" name="fcontact" />
 					</ul>
 			</fieldset>
 			<fieldset>
@@ -84,12 +85,16 @@
 								<option value="Western">Western</option>
 							</select>
 						</li>
+						<li><label for="compatibility">Level of Compatibility:</label><input type="range" name="compatibility" min="1" max="20" /></li>
+						<li><label for="comments">Additional Information:</label><textarea id="comments"></textarea></li>
+						<li><input type="hidden" value="true" /></li>
 					</ul>
 			</fieldset>
+			<input type="submit" value="Submit New User" />
 
 		<footer>
-			<p id=""></p>
+			<a href="#" title="clear">Clear Stored Data</a> <a href="#" title="display">Display Stored Data</a>
 		</footer>
-		<script type="text/javascript" src=""></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>

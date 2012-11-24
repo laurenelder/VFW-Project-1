@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!-- Devin "Lauren" Elder-->
+<!-- VFW Term 1212-->
+<!-- Project 1-->
+<!-- 11/24/2012-->
+
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -15,6 +20,7 @@
 		</header>
 
 		<form action="#" method="post">
+			<section>
 			<fieldset>
 				<legend>General Information</legend>
 					<ul>
@@ -25,6 +31,8 @@
 						<li><label for="fcontact">First Contacted:</label><input type="date" name="fcontact" />
 					</ul>
 			</fieldset>
+			</section>
+			<br />
 			<fieldset>
 				<legend>Gender and Orientation</legend>
 					<ul>
@@ -41,6 +49,9 @@
 							</ul>
 					</ul>
 			</fieldset>
+			</section>
+			<br />
+			<section>
 			<fieldset>
 				<legend>More Specific Information</legend>
 					<ul>
@@ -58,6 +69,7 @@
 						<li>
 							<label for="music">Preferred type of music:</label>
 							<select id="music">
+								<option value="choose music">Choose a Genre</option>
 								<option value="Alternative">Alternative</option>
 								<option value="Blues">Blues</option>
 								<option value="Classical">Classical</option>
@@ -73,6 +85,7 @@
 						<li>
 							<label for="music">Preferred type of movie:</label>
 							<select id="music">
+								<option value="choose movie">Choose a Genre</option>
 								<option value="Action">Action</option>
 								<option value="Adventure">Adventure</option>
 								<option value="Comedy">Comedy</option>
@@ -90,10 +103,14 @@
 						<li><input type="hidden" value="true" /></li>
 					</ul>
 			</fieldset>
+			</section>
+			<br />
 			<input type="submit" value="Submit New User" />
 
 		<footer>
-			<a href="#" title="clear">Clear Stored Data</a> <a href="#" title="display">Display Stored Data</a>
+			<nav>
+				<a href="#" title="clear">Clear Stored Data</a> <a href="#" title="display">Display Stored Data</a>
+			</nav>
 		</footer>
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
